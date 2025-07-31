@@ -1,0 +1,65 @@
+# Go编译文件
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# 测试二进制文件
+*.test
+
+# 输出目录
+/tmp/
+/build/
+/bin/
+/dist/
+
+# 依赖目录
+vendor/
+
+# Go工作空间文件
+go.work
+go.work.sum
+
+# 覆盖率报告
+*.out
+coverage.txt
+coverage.html
+
+# IDE和编辑器文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日志文件
+*.log
+
+# 配置文件中的敏感信息
+*.env
+*.env.local
+*.env.production
+*.env.test
+
+# 证书文件
+*.pem
+*.crt
+*.key
+
+# 测试数据
+testdata/temp/
+test/temp/
+
+# 性能分析文件
+*.prof
+*.pprof
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# 临时文件
+tmp/
+temp/
